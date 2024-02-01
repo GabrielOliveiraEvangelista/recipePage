@@ -5,6 +5,10 @@
 }
 :root {
     font-size: 62.5%;
+    --font-color-principal:#5F564D; 
+    --color-secondary:#854632;
+    --background-color-ul:#FFF7FB;
+    --color-line: #E3DDD7; 
 }
 body {
     font-family: "Outfit", sans-serif;
@@ -32,6 +36,7 @@ section p {
 #preparationTime {
     padding: 2.4rem;
     margin-bottom: 3.2rem;
+    background-color: var(--background-color-ul);
 }
 #preparationTime h2 {
     font-size: 2rem;
@@ -40,20 +45,51 @@ section p {
     line-height: 100%;
     margin-bottom: 1.6rem;
 }
-section ul {
+section ul, section ol {
     padding-left: 2.4rem;
+    color: var(--color-secondary);
+    
 }
-section ul li {
+section ul span, ol span, strong, th, h3 {
+    color: var(--font-color-principal);
+}
+section ul li, ol li, table,h3 {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
 }
-#ingredients h2 {
+#ingredients, #instructions {
+    border-bottom: 1px solid var(--color-line);
+    margin-bottom: 3.2rem;
+}
+#ingredients h2, #instructions h2, #nutrition h2 {
+    color: var(--color-secondary);
     margin-bottom: 2.4rem;
     font-family: "Young Serif", serif;
     font-size: 2.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
+}
+#ingredients ul, #instructions ol {
+    margin-bottom: 3.2rem;
+}
+p {
+    margin-bottom: 1.2rem;
+}
+.borderTable {
+    display: flex;
+    border-bottom: 1px solid var(--color-line);
+    justify-content: space-between;
+    padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+}
+.borderTable p {
+    margin: 0;
+    color: var(--color-secondary);
+    font-weight: bold;
+}
+#nutrition div:nth-child(6){
+    padding: 1.2rem 3.2rem 0 3.2rem;
+    border: none;
 }

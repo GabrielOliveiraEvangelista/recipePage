@@ -8,16 +8,39 @@
     --font-color-principal:#5F564D; 
     --color-secondary:#854632;
     --background-color-ul:#FFF7FB;
-    --color-line: #E3DDD7; 
+    --color-line: #E3DDD7;
+    --background-body:#F3E5D7; 
 }
 body {
     font-family: "Outfit", sans-serif;
+    @media only screen and (min-width:1024px){
+        background-color: var(--background-body);
+    }
 }
-main img {
+#imgMobile {
     width: 100%;
+    @media only screen and (min-width:1024px){
+        display: none;
+    }
+}
+#imgDesktop{
+    display: none;
+    @media only screen and (min-width:1024px){
+        display: block;
+        width: 100%;
+        border-radius: 1.2rem;
+        margin-bottom: 4rem;
+    }
 }
 #page {
     padding: 4rem 3.2rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    @media only screen and (min-width: 1024px){
+        margin: 12.5rem auto 12.5rem;
+        background-color: white;
+        border-radius: 2.5rem;
+    }
 }
 section h1 {
     font-family: "Young Serif", serif;

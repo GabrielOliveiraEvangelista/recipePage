@@ -31,7 +31,7 @@ Neste projeto, consolidei habilidades práticas, incluindo trabalho com imagens,
 
 ### Link da página
 
-- Clique aqui e confira o deploy: [URL do site](https://glittery-stroopwafel-074c58.netlify.app)
+- Clique aqui e confira o deploy: [URL do site](https://gabrieloliveiraevangelista.github.io/recipePage/)
 
 ## Autor
 

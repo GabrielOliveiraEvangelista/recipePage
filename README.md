@@ -14,6 +14,7 @@ Apresento a seguir um projeto de página de receita concebido por mim, com inspi
 - [Meu Processo](#meu-processo)
   - [Construído com](#construído-com)
   - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Link da página](#link-da-página)
 - [Autor](#autor)
 
 ## Meu Processo
@@ -27,6 +28,10 @@ Apresento a seguir um projeto de página de receita concebido por mim, com inspi
 ### O que eu aprendi
 
 Neste projeto, consolidei habilidades práticas, incluindo trabalho com imagens, alinhamento de elementos, responsividade de telas, utilização do Git e GitHub, elaboração de README, entre outras competências.
+
+### Link da página
+
+- Clique aqui e confira o deploy: [URL do site](https://glittery-stroopwafel-074c58.netlify.app)
 
 ## Autor
 
